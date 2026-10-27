@@ -1,45 +1,32 @@
-# Shashank Bhoyar — Portfolio
+# Shashank Bhoyar — ECHO-style Portfolio
 
-Professional React + Vite portfolio for **Shashank Bhoyar**, Java Full Stack Developer.
+A static portfolio adaptation based on the layout language and interaction patterns of [ECHO-WEBSITE by Jishnu09-siuu](https://github.com/Jishnu09-siuu/ECHO-WEBSITE). This adaptation changes the identity and content to Shashank Bhoyar and foregrounds Java / Spring Boot projects. The reference repository identifies its code as MIT-licensed; consult the source repository's `LICENSE` before redistributing any source copied verbatim.
 
-## Live Portfolio
+## Run locally
 
-**[Visit the live portfolio →](https://shashank-bhoyar-portfolio.vercel.app/)**
-
-The site is deployed on Vercel and is available publicly for recruiters, hiring managers, and anyone reviewing my work.
-
-## Featured Work
-
-- **ProcureFlow** — Full-stack procurement and inventory workflow platform built with Java, Spring Boot, React, PostgreSQL, Spring Security, JWT, and Docker.
-- **Safe Rail AI System** — Computer vision prototype using Python, Flask, OpenCV, and YOLOv8.
-- **Core Java Practice** — Structured Java exercises covering OOP, Collections, DSA, problem solving, and fundamentals.
-
-## Tech Stack
-
-- React
-- Vite
-- JavaScript
-- HTML / CSS
-- Responsive design
-- Vercel deployment
-
-## Run Locally
+You need Python 3 installed. From this folder run:
 
 ```bash
-npm install
-npm run dev
+python -m http.server 8080
 ```
 
-Build for production:
+Then open http://localhost:8080.
 
-```bash
-npm run build
-```
+A local server is used because the page uses JavaScript modules-style event and browser behavior. Tailwind and Plus Jakarta Sans load from their public CDNs.
 
-The portfolio is intentionally image-free. Project visuals are CSS-built interface mockups rather than unrelated stock photos or screenshots.
+## Included project links
 
-## Links
+- ProcureFlow: https://github.com/Shashankur7/procureflow
+- Employee Leave Management: https://github.com/Shashankur7/employee-leave-management
+- Core Java Practice: https://github.com/Shashankur7/core-java-practice
+- Safe Rail AI: https://github.com/Shashankur7/safe-rail-ai-system (presented last / secondary)
+- GitHub: https://github.com/Shashankur7
+- LinkedIn: https://www.linkedin.com/in/shashank-bhoyar/
 
-- **Portfolio:** https://shashank-bhoyar-portfolio.vercel.app/
-- **GitHub:** https://github.com/Shashankur7
-- **LinkedIn:** https://www.linkedin.com/in/shashank-bhoyar/
+## Personal details
+
+The hero uses an SB monogram treatment instead of another person's portrait. Replace it with your own cut-out portrait if you'd like that part to match the reference more closely. The contact address currently uses `bhoyarshashank4@gmail.com` from your existing portfolio repository.
+
+## Note
+
+The main layout is adapted to the reference's editorial header, scroll-expanding About stage, horizontal experience timeline, large project cards, 3D-style wheel, service accordion and contact modal. The project's WebGL carousel implementation is a local lightweight approximation rather than a byte-for-byte import of the reference's OGL engine. The abstract About backdrop uses an image hosted in the public reference repository.
